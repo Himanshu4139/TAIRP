@@ -1,0 +1,462 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Maiden Orange', cursive;
+    font-family: 'Modern Antiqua', cursive;
+    font-family: 'Reggae One', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+}
+.logo img{
+    height: 80px;
+    width: 190px;
+}
+.logo h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: -70px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 20px;
+}
+.menu h5{
+    font-size: 18px;
+    position: relative;
+}
+.menu h5::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -10px;
+    left: 0;
+    background-color: rgb(255, 201, 14);
+}
+.menu h5:hover::after{
+    animation-name: animate;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.menu h5:hover{
+    color: rgb(255, 201, 14);
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn button{
+    padding: 10px 20px;
+    background-color: rgb(255, 201, 14);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.section1{
+    display: flex;
+    position: relative;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 30px 150px;
+}
+.arrow .first{
+    font-size: 18px;
+}
+.arrow .boxxx{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+    margin-right: 10px;
+}
+.msg h1{
+    margin: 0 0 20px 150px;
+    font-size: 54px;
+    word-spacing: 5px;
+}
+h1 span{
+    color: rgb(255, 201, 14);
+}
+.msg .second{
+    margin: 0 50px 20px 150px;
+    font-size: 15px;
+}
+.msg .btn1{
+    margin-left: 150px;
+    margin-top: 25px;
+    padding: 20px 70px;
+    background-color: black;
+    cursor: pointer;
+}
+.msg .btn2{
+    margin-left: -135px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(255, 201, 14);
+    border: none;
+    cursor: pointer;
+}
+.msg .btn3{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 20px;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+.btn3:hover{
+    background-color: rgb(255, 201, 14);
+    color: black;
+}
+.hero-img{
+    background-image: url('main.png');
+    background-size: cover;
+    height: 490px;
+    width: 680px;
+    position: absolute;
+    right: 120px;
+}
+.section2{
+    margin-top: 40px;
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.msg1 h1{
+    color: rgb(255, 201, 14);
+    margin: 40px 0px 20px 110px;
+    font-size: 48px;
+    word-spacing: 5px;
+}
+.msg1 p{
+    color: white;
+    margin: 0 0 40px 110px;
+}
+.msg1 .point{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.point p{
+    margin-left: 135px;
+    font-size: 16px;
+    margin-top: -25px;
+}
+.point i{
+    font-size: 20px;
+    color: rgb(255, 201, 14);
+    margin-left: 110px;
+}
+.percent{
+    color: white;
+    margin: 70px 40px 0 140px;
+}
+.percent h3{
+    margin: 30px 0 10px 0;
+    font-size: 18px;
+}
+.percent .box{
+    height: 7px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 5px;
+    position: relative;
+}
+.percent .boxx{
+    position: absolute;
+    height: 7px;
+    background-color: rgb(255, 201, 14);
+    border-radius: 5px;
+}
+.percent .box1{
+    width: 80%;
+}
+.percent .box2{
+    width: 60%;
+}
+.percent .box3{
+    width: 50%;
+}
+.percent .box4{
+    width: 70%;
+}
+.percent .box5{
+    width: 80%;
+}
+.percent i{
+    font-size: 40px;
+    margin: 100px 0 0 400px;
+    color: rgb(255, 201, 14);
+}
+.section3{
+    height: 650px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section3 h1{
+    margin-top: 40px;
+    font-size: 48px;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .child1{
+    height: 344px;
+    width: 350px;
+    background-color: blanchedalmond;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+.main .child2{
+    height: 344px;
+    width: 350px;
+    background-color: blanchedalmond;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+.main .child3{
+    height: 344px;
+    width: 350px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+.mains:hover{
+    scale: 1.08;
+    background-color: rgb(255, 201, 14);
+    border: none;
+}
+.mains i{
+    font-size: 50px;
+    margin: 40px 0 20px 50px;
+}
+.lines i{
+    font-size: 20px;
+    margin: 20px 0 10px 50px;
+}
+.mains h3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.lines p{
+    margin-top: -35px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+.upper i{
+    font-size: 40px;
+    margin-top: 60px;
+    color: black;
+}
+.section4{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 h1{
+    margin-top: 40px;
+    color: rgb(255, 201, 14);
+    font-size: 48px;
+}
+.row1{
+    height: 190px;
+    width: 70%;
+    background-color: rgb(255, 201, 14);
+    margin: 40px 0 30px 0;
+    border-radius: 5px;
+}
+.row2{
+    height: 190px;
+    width: 70%;
+    background-color: rgb(255, 201, 14);
+    border-radius: 5px;
+}
+.row1 h3{
+    margin: 30px 0 0 40px;
+    font-size: 25px;
+}
+.row2 h3{
+    margin: 30px 0 0 40px;
+    font-size: 25px;
+}
+.date{
+    margin-left: 40px;
+}
+.name{
+    margin: 30px 0 0 40px;
+}
+.section4 i{
+    font-size: 40px;
+    color: rgb(255, 201, 14);
+    margin: 20px 0 0 1150px;
+}
+.section5{
+    height: 650px;
+    width: 100%;
+}
+.part1{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(255, 201, 14);
+    display: flex;
+}
+.part2{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.part3{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+.intro h1{
+    margin: 40px 0 40px 80px;
+    font-size: 48px;
+}
+.intro p{
+    margin: 0 0 50px 80px;
+    line-height: 1.6;
+}
+.hello{
+    height: 50px;
+    width: 170px;
+    margin-left: 80px;
+    background-color: white;
+    cursor: pointer;
+}
+.hello button{
+    height: 50px;
+    width: 170px;
+    color: white;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.last{
+    display: flex;
+    align-items: center;
+}
+.last img{
+    height: 80px;
+    width: 190px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.last h3{
+    margin-left: -66px;
+    margin-top: 40px;
+    font-size: 26px;
+}
+.social{
+    margin: 40px 0 0 120px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social i{
+    font-size: 28px;
+    margin-right: 10px;
+}
+.address{
+    margin: 60px 100px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.address i{
+    color: rgb(255, 201, 14);
+    font-size: 20px;
+    margin: 25px 0 25px 0;
+}
+.address p{
+    margin-top: -45px;
+    margin-left: 25px;
+}
+.part3 i{
+    margin-top: 3px;
+}
+.part3 p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.up i{
+    font-size: 40px;
+    color: rgb(255, 201, 14);
+    margin-left: 400px;
+    margin-right: 80px;
+    margin-top: -20px;
+}

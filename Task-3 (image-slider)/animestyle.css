@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Maiden Orange', cursive;
+    font-family: 'Modern Antiqua', cursive;
+    font-family: 'Reggae One', cursive;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pic0::before{
+    content: "";
+    background-image: url("anime img/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.pic1::before{
+    content: "";
+    background-image: url("anime img/pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.pic2::before{
+    content: "";
+    background-image: url("anime img/pic3.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.pic3::before{
+    content: "";
+    background-image: url("anime img/pic4.webp");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.pic4::before{
+    content: "";
+    background-image: url("anime img/pic5.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.pic5::before{
+    content: "";
+    background-image: url("anime img/pic6.webp");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: 0.3s;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    margin-left: 2.5rem;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 2.5rem;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li{
+    font-size: 1.5rem;
+    margin-left: 1.8rem;
+}
+.container{
+    height: 60%;
+    width: 70%;
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contain{
+    height: 100%;
+    width: 75%;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+.inner img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.container i{
+    font-size: 4rem;
+    color: gray;
+    cursor: pointer;
+}
+.footer{
+    position: relative;
+    color: #fff;
+    margin-top: 5rem;
+    display: flex;
+}
+.footer i{
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+}
+.footer p{
+    font-size: 1.2rem;
+}

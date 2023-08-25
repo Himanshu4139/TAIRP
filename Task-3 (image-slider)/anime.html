@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Slider</title>
+    <link rel="stylesheet" href="animestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Maiden+Orange&family=Modern+Antiqua&family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main pic0">
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><h1>SLIDESHOW</h1></a>
+            </div>
+            <ul>
+                <a href="avenger.html"><li>Avenger</li></a>
+                <a href="anime.html"><li>Anime</li></a>
+                <a href="nature.html"><li>Nature</li></a>
+                <a href="animal.html"><li>Animal</li></a>
+            </ul>
+        </div>
+        <div class="container">
+            <i class="fa-solid fa-angle-left" onclick="backward()"></i>
+            <div class="contain">
+            <div class="inner">
+                <img src="anime img/pic1.jpg" alt="">
+            </div>
+            <div class="inner">
+                <img src="anime img/pic2.jpg" alt="">
+            </div>
+            <div class="inner">
+                <img src="anime img/pic3.jpg" alt="">
+            </div>
+            <div class="inner">
+                <img src="anime img/pic4.webp" alt="">
+            </div>
+            <div class="inner">
+                <img src="anime img/pic5.jpg" alt="">
+            </div>
+            <div class="inner">
+                <img src="anime img/pic6.webp" alt="">
+            </div>
+        </div>
+            <i class="fa-solid fa-angle-right" onclick="forward()"></i>
+        </div>
+        <div class="footer">
+            <i class="fa-regular fa-copyright"></i>
+            <p>Designed & Built By Himanshu Kumar</p>
+        </div>
+    </div>
+    
+    <script src="animescript.js"></script>
+</body>
+</html>
